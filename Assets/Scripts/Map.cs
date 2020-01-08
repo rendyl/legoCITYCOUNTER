@@ -1,12 +1,13 @@
 using System;
 using UnityEngine;
+using System.Collections.Generic;
 
 [Serializable]
 public class Map
 {
     public Vector2Int mapSize;
     public float mapScale;
-    public Column[,] columns;
+    public List<Column> columns;
 }
 
 [Serializable]
