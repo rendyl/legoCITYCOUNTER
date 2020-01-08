@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class RayCast : MonoBehaviour
 {
     public Grid g;
+    public string nameMap;
     public LayerMask layerMask; 
 
     // Start is called before the first frame update
@@ -50,6 +52,7 @@ public class RayCast : MonoBehaviour
         }
 
         Debug.Log(JsonUtility.ToJson(m));
+        File.WriteAllText("Assets/JSON/" + nameMap + ".json", JsonUtility.ToJson(m));
     }
 
     void OnDrawGizmosSelected()

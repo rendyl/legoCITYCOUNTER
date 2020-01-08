@@ -316,6 +316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   g: {fileID: 1033846184}
+  nameMap: Map
   layerMask:
     serializedVersion: 2
     m_Bits: 1
