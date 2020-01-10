@@ -300,8 +300,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd0e30564928a54d95b0c6b2f4eda92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sizeGrid: {x: 1000, y: 1000, z: 1000}
-  sizeVoxel: 2
+  sizeGrid: {x: 100, y: 100, z: 100}
+  sizeVoxel: 1
   basePos: {x: 0, y: 0, z: 0}
 --- !u!114 &1033846185
 MonoBehaviour:

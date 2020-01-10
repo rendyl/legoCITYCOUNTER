@@ -23,7 +23,7 @@ public class RayCast : MonoBehaviour
     public void createJSON()
     {
         Map m = new Map();
-        m.mapSize = new Vector2Int((int)g.sizeGrid.x, (int)g.sizeGrid.z);
+        m.mapSize = new Vector2Int((int)g.sizeGrid.x/g.sizeVoxel, (int)g.sizeGrid.z/g.sizeVoxel);
         m.mapScale = g.sizeVoxel;
         m.columns = new List<Column>();
 
@@ -35,8 +35,8 @@ public class RayCast : MonoBehaviour
                 RaycastHit hit;
                 if (Physics.Raycast(transform.position + g.basePos + new Vector3(-g.sizeVoxel / 2f, 0, -g.sizeVoxel / 2f) + new Vector3(i, g.sizeGrid.y / g.sizeVoxel, k) * g.sizeVoxel, Vector3.down, out hit, g.sizeGrid.y, layerMask))
                 {
-                    Debug.Log(hit.point.y);
-                    Debug.Log("Did Hit");
+                    //Debug.Log(hit.point.y);
+                    //Debug.Log("Did Hit");
 
                     Column c = new Column();
                     c.type = Column.Type.Ground;
@@ -46,12 +46,16 @@ public class RayCast : MonoBehaviour
                 else
                 {
                     Debug.DrawRay(transform.position + g.basePos + new Vector3(-g.sizeVoxel / 2f, 0, -g.sizeVoxel / 2f) + new Vector3(i, g.sizeGrid.y / g.sizeVoxel, k) * g.sizeVoxel, Vector3.down * g.sizeGrid.y, Color.white);
+                    Column c = new Column();
+                    c.type = Column.Type.Ground;
+                    c.height = 0;
+                    m.columns.Add(c);
                     Debug.Log("No Hit");
                 }
             }
         }
 
-        Debug.Log(JsonUtility.ToJson(m));
+        //Debug.Log(JsonUtility.ToJson(m));
         File.WriteAllText("Assets/JSON/" + nameMap + ".json", JsonUtility.ToJson(m));
     }
 
