@@ -1,0 +1,73 @@
+{
+    "mapSize": {
+        "x": 4,
+        "y": 4
+    },
+    "mapScale": 1.0,
+    "columns": [
+        {
+            "height": 0.0,
+            "type": 0
+        },
+        {
+            "height": 1.0,
+            "type": 0
+        },
+        {
+            "height": 2.0,
+            "type": 0
+        },
+        {
+            "height": 1.0,
+            "type": 0
+        },
+        {
+            "height": 1.0,
+            "type": 0
+        },
+        {
+            "height": 2.0,
+            "type": 0
+        },
+        {
+            "height": 1.0,
+            "type": 0
+        },
+        {
+            "height": 0.0,
+            "type": 0
+        },
+        {
+            "height": 3.0,
+            "type": 0
+        },
+        {
+            "height": 4.0,
+            "type": 0
+        },
+        {
+            "height": 2.0,
+            "type": 0
+        },
+        {
+            "height": 1.0,
+            "type": 0
+        },
+        {
+            "height": 1.0,
+            "type": 0
+        },
+        {
+            "height": 2.0,
+            "type": 0
+        },
+        {
+            "height": 1.0,
+            "type": 0
+        },
+        {
+            "height": 0.0,
+            "type": 0
+        }
+    ]
+}
