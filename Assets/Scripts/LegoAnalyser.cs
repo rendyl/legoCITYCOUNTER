@@ -45,12 +45,16 @@ public class LegoAnalyser : MonoBehaviour
 
                 RaycastHit hit;
                 float height = 0;
+                Column.Type type = Column.Type.Default;
                 if (Physics.Raycast(rayPosition, Vector3.down, out hit, analyserHeight, collisionMask))
                 {
                     height = analyserHeight - hit.distance;
                     if (height < minHeight) minHeight = height;
+
+                    if (hit.collider.tag == "Ground") type = Column.Type.Ground;
+                    if (hit.collider.tag == "Building") type = Column.Type.Building;
                 }
-                Column column = new Column(height, Column.Type.Default);
+                Column column = new Column(height, type);
                 legoMap.columns.Add(column);
             }
         }
