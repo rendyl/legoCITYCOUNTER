@@ -22,7 +22,7 @@ public class RayCast : MonoBehaviour
     }
     public void createJSON()
     {
-        Map m = new Map();
+        LegoMap m = new LegoMap();
         m.mapSize = new Vector2Int((int)g.sizeGrid.x/g.sizeVoxel, (int)g.sizeGrid.z/g.sizeVoxel);
         m.mapScale = g.sizeVoxel;
         m.columns = new List<Column>();
@@ -67,7 +67,7 @@ public class RayCast : MonoBehaviour
         {
             for (int k = 1; k <= g.sizeGrid.z / g.sizeVoxel; k++)
             {
-                Gizmos.DrawLine(transform.position + g.basePos + new Vector3(-g.sizeVoxel / 2f, 0, -g.sizeVoxel / 2f) + new Vector3(i, g.sizeGrid.y / g.sizeVoxel, k) * g.sizeVoxel, transform.position + g.basePos + new Vector3(-g.sizeVoxel / 2f, 0, -g.sizeVoxel / 2f) + new Vector3(i, 0, k) * g.sizeVoxel);
+              //  Gizmos.DrawLine(transform.position + g.basePos + new Vector3(-g.sizeVoxel / 2f, 0, -g.sizeVoxel / 2f) + new Vector3(i, g.sizeGrid.y / g.sizeVoxel, k) * g.sizeVoxel, transform.position + g.basePos + new Vector3(-g.sizeVoxel / 2f, 0, -g.sizeVoxel / 2f) + new Vector3(i, 0, k) * g.sizeVoxel);
             }
         }
     }

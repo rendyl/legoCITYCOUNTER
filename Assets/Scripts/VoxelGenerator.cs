@@ -41,7 +41,7 @@ public class VoxelGenerator : MonoBehaviour
 
     private static MeshColumn[,] CreateVoxelColumnsFromJson(string json)
     {
-        Map map = JsonUtility.FromJson<Map>(json);
+        LegoMap map = JsonUtility.FromJson<LegoMap>(json);
         MeshColumn[,] meshColumns = new MeshColumn[map.mapSize.x, map.mapSize.y];
 
         for (int x = 0; x < meshColumns.GetLength(0); x++)
