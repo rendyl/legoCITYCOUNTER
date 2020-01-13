@@ -1,0 +1,25 @@
+{
+    "mapSize": {
+        "x": 2,
+        "y": 2
+    },
+    "mapScale": 1.0,
+    "columns": [
+        {
+            "height": 0.0,
+            "type": 0
+        },
+        {
+            "height": 1.0,
+            "type": 0
+        },
+        {
+            "height": 2.0,
+            "type": 0
+        },
+        {
+            "height": 0.0,
+            "type": 0
+        }
+    ]
+}
