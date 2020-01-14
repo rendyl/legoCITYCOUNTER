@@ -7,6 +7,7 @@ public class LegoMap
 {
     public Vector2Int mapSize;
     public float mapScale;
+    public int legoCount;
     public List<Column> columns;
 }
 

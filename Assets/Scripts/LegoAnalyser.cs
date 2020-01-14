@@ -21,7 +21,9 @@ public class LegoAnalyser : MonoBehaviour
 
     private LegoMap ComputeLegoMap()
     {
+        int count = 0;
         LegoMap legoMap = new LegoMap();
+
         legoMap.mapSize = legoMapSize;
         legoMap.mapScale = scale;
         legoMap.columns = new List<Column>();
@@ -59,16 +61,25 @@ public class LegoAnalyser : MonoBehaviour
             }
         }
         
-        if (setGroundAt0)
+        
+        for (int i = 0; i < legoMap.columns.Count; i++)
         {
-            for (int i = 0; i < legoMap.columns.Count; i++)
+            if (setGroundAt0)
             {
                 if (legoMap.columns[i].height < minHeight)
                     legoMap.columns[i].height = 0;
                 else
                     legoMap.columns[i].height -= minHeight;
             }
+
+            // Normalisation en Lego et Count
+            legoMap.columns[i].height = legoMap.columns[i].height / (1.2f * scale);
+            legoMap.columns[i].height = Mathf.Round(legoMap.columns[i].height);
+            count += (int)legoMap.columns[i].height;
+            legoMap.columns[i].height = legoMap.columns[i].height * 1.2f;
         }
+
+        legoMap.legoCount = count;
 
         return legoMap;
     }
