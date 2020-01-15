@@ -8,8 +8,7 @@ Gamagora 2019 - Transformation d'un Mesh en Lego<br>
 - Creation d'un Mesh a partir d'une LegoMap
 
 ## Illustrations : 
-![Terrain](Assets/Img/Terrain.PNG)
-![Lego](Assets/Img/Lego.PNG)
+<img src="Assets/Img/Terrain.PNG" data-canonical-src="Assets/Img/Terrain.PNG" width="430" height="250" /> <img src="Assets/Img/Lego.PNG" data-canonical-src="Assets/Img/Lego.PNG" width="430" height="250" />
 
 ## Utilisation du Projet :
 - Importer le Projet sur votre PC
@@ -24,7 +23,8 @@ Gamagora 2019 - Transformation d'un Mesh en Lego<br>
 - Choisir le fichier JSON crée dans son script associé VoxelGenerator
 - Créer le Mesh
 
-## Paramétrage de la Grille :
+## Paramétrage de la Grille (LegoAnalyser) :
+<img src="Assets/Img/LegoAnalyser.PNG" data-canonical-src="Assets/Img/LegoAnalyser.PNG" width="430" height="130" /><br>
 - Choisir la taille de la map (plaque de legos au sol).
 - Choisir la scale et la height de la map pour qu'elle englobe tout le terrain à analyser.
 - Choisir le LayerMask à intersecter (Everything ou bien un spécifique s'il ne faut pas analyser tout).
@@ -32,6 +32,7 @@ Gamagora 2019 - Transformation d'un Mesh en Lego<br>
 - Choisir le nom du fichier (sera situé dans Assets/JSON/).
 
 ## Détail des fichiers JSON exportés :
+<img src="Assets/Img/JSON.PNG" data-canonical-src="Assets/Img/JSON.PNG" width="300" height="250" /><br>
 - Taille de la Map
 - Echelle de la Map
 - Nombre de Legos
