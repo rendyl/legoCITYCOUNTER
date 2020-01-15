@@ -14,7 +14,7 @@ Gamagora 2019 - Transformation d'un Mesh en Lego<br>
 - Importer le Projet sur votre PC
 - Le lancer avec Unity 2019.2.x
 - Ouvrir la Scène Lego.unity
-- Importer votre modèle 3D à Analyser dans Unity
+- Importer votre modèle 3D à analyser dans Unity
 - Vérifier que celui-ci possède bien des Colliders (optionnel : ajoutez le tag "Ground" à votre sol)
 - Deplacer le GameObject LegoAnalyser sur votre modèle 3D
 - Paramétrer la Grille (script associé LegoAnalyser) > cf section appropriée
