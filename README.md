@@ -20,7 +20,7 @@ Gamagora 2019 - Transformation d'un Mesh en Lego<br>
 - Paramétrer la Grille (script associé LegoAnalyser) > cf section appropriée
 - Exporter en JSON
 - Selectionner le GameObject VoxelGenerator
-- Choisir le fichier JSON crée dans son script associé VoxelGenerator
+- Paramétrer le générateur avec votre JSON
 - Créer le Mesh
 
 ## Paramétrage de la Grille (LegoAnalyser) :
