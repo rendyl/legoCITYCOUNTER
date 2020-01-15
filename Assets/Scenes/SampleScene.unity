@@ -184,14 +184,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 493956424}
     m_Modifications:
-    - target: {fileID: 100054, guid: 7a07aef4cefca60488a8799efc07bfd5, type: 3}
-      propertyPath: m_Name
-      value: tile_x121y109
-      objectReference: {fileID: 0}
-    - target: {fileID: 100022, guid: 7a07aef4cefca60488a8799efc07bfd5, type: 3}
-      propertyPath: m_TagString
-      value: Building
-      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 7a07aef4cefca60488a8799efc07bfd5, type: 3}
       propertyPath: m_TagString
       value: Building
@@ -233,6 +225,10 @@ PrefabInstance:
       value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: 7a07aef4cefca60488a8799efc07bfd5, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: 7a07aef4cefca60488a8799efc07bfd5, type: 3}
       propertyPath: m_TagString
       value: Building
       objectReference: {fileID: 0}
@@ -295,6 +291,10 @@ PrefabInstance:
     - target: {fileID: 100052, guid: 7a07aef4cefca60488a8799efc07bfd5, type: 3}
       propertyPath: m_TagString
       value: Building
+      objectReference: {fileID: 0}
+    - target: {fileID: 100054, guid: 7a07aef4cefca60488a8799efc07bfd5, type: 3}
+      propertyPath: m_Name
+      value: tile_x121y109
       objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 7a07aef4cefca60488a8799efc07bfd5, type: 3}
       propertyPath: m_TagString
@@ -1067,7 +1067,7 @@ GameObject:
   - component: {fileID: 382175319}
   - component: {fileID: 382175318}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Voxel generator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1271,14 +1271,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 493956424}
     m_Modifications:
-    - target: {fileID: 100260, guid: 6e0ca05ef468bc04f86be69863664ce4, type: 3}
-      propertyPath: m_Name
-      value: tile_x121y108
-      objectReference: {fileID: 0}
-    - target: {fileID: 100124, guid: 6e0ca05ef468bc04f86be69863664ce4, type: 3}
-      propertyPath: m_TagString
-      value: Building
-      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6e0ca05ef468bc04f86be69863664ce4, type: 3}
       propertyPath: m_TagString
       value: Building
@@ -1524,6 +1516,10 @@ PrefabInstance:
       value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 100122, guid: 6e0ca05ef468bc04f86be69863664ce4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
+    - target: {fileID: 100124, guid: 6e0ca05ef468bc04f86be69863664ce4, type: 3}
       propertyPath: m_TagString
       value: Building
       objectReference: {fileID: 0}
@@ -1783,11 +1779,15 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Building
       objectReference: {fileID: 0}
-    - target: {fileID: 100262, guid: 6e0ca05ef468bc04f86be69863664ce4, type: 3}
+    - target: {fileID: 100256, guid: 6e0ca05ef468bc04f86be69863664ce4, type: 3}
       propertyPath: m_TagString
       value: Ground
       objectReference: {fileID: 0}
-    - target: {fileID: 100256, guid: 6e0ca05ef468bc04f86be69863664ce4, type: 3}
+    - target: {fileID: 100260, guid: 6e0ca05ef468bc04f86be69863664ce4, type: 3}
+      propertyPath: m_Name
+      value: tile_x121y108
+      objectReference: {fileID: 0}
+    - target: {fileID: 100262, guid: 6e0ca05ef468bc04f86be69863664ce4, type: 3}
       propertyPath: m_TagString
       value: Ground
       objectReference: {fileID: 0}
@@ -4430,14 +4430,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 493956424}
     m_Modifications:
-    - target: {fileID: 100226, guid: 2c886afa5ffa6b349841b461ee6c10b7, type: 3}
-      propertyPath: m_Name
-      value: tile_x122y108
-      objectReference: {fileID: 0}
-    - target: {fileID: 100094, guid: 2c886afa5ffa6b349841b461ee6c10b7, type: 3}
-      propertyPath: m_TagString
-      value: Building
-      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2c886afa5ffa6b349841b461ee6c10b7, type: 3}
       propertyPath: m_TagString
       value: Building
@@ -4623,6 +4615,10 @@ PrefabInstance:
       value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 100092, guid: 2c886afa5ffa6b349841b461ee6c10b7, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
+    - target: {fileID: 100094, guid: 2c886afa5ffa6b349841b461ee6c10b7, type: 3}
       propertyPath: m_TagString
       value: Building
       objectReference: {fileID: 0}
@@ -4885,6 +4881,10 @@ PrefabInstance:
     - target: {fileID: 100224, guid: 2c886afa5ffa6b349841b461ee6c10b7, type: 3}
       propertyPath: m_TagString
       value: Building
+      objectReference: {fileID: 0}
+    - target: {fileID: 100226, guid: 2c886afa5ffa6b349841b461ee6c10b7, type: 3}
+      propertyPath: m_Name
+      value: tile_x122y108
       objectReference: {fileID: 0}
     - target: {fileID: 100228, guid: 2c886afa5ffa6b349841b461ee6c10b7, type: 3}
       propertyPath: m_TagString
@@ -7392,10 +7392,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 493956424}
     m_Modifications:
-    - target: {fileID: 100020, guid: 4dcd7862e6b220844b944faa0a0376ec, type: 3}
-      propertyPath: m_Name
-      value: tile_x122y109
-      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 4dcd7862e6b220844b944faa0a0376ec, type: 3}
       propertyPath: m_TagString
       value: Building
@@ -7412,15 +7408,19 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Building
       objectReference: {fileID: 0}
-    - target: {fileID: 100022, guid: 4dcd7862e6b220844b944faa0a0376ec, type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 4dcd7862e6b220844b944faa0a0376ec, type: 3}
       propertyPath: m_TagString
       value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: 4dcd7862e6b220844b944faa0a0376ec, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: 4dcd7862e6b220844b944faa0a0376ec, type: 3}
+      propertyPath: m_Name
+      value: tile_x122y109
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: 4dcd7862e6b220844b944faa0a0376ec, type: 3}
       propertyPath: m_TagString
       value: Ground
       objectReference: {fileID: 0}
