@@ -8,6 +8,8 @@ Gamagora 2019 - Transformation d'un Mesh en Lego<br>
 - Creation d'un Mesh a partir d'une LegoMap
 
 ## Illustrations : 
+![Terrain](Assets/Img/Terrain.PNG)
+![Lego](Assets/Img/Lego.PNG)
 
 ## Utilisation du Projet :
 - Importer le Projet sur votre PC
