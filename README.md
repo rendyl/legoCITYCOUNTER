@@ -1,4 +1,4 @@
-# Lego CITY
+# Lego CITY COUNTER
 Gamagora 2019 - Transformation d'un Mesh en Lego<br>
 **Antoine CHEDIN & Rendy LATBI**
 
